@@ -1,10 +1,12 @@
 # Proyecto Base Implementando Clean Architecture
 
+
 ## Antes de Iniciar
 
-Empezaremos por explicar los diferentes componentes del proyectos y partiremos de los componentes externos, continuando con los componentes core de negocio (dominio) y por último el inicio y configuración de la aplicación.
+Se utilizÃ³ el pluggin de clean architecture que se encuentra en un repositorio publico de github.
 
-Lee el artículo [Clean Architecture — Aislando los detalles](https://medium.com/bancolombia-tech/clean-architecture-aislando-los-detalles-4f9530f35d7a)
+Empezaremos por explicar los diferentes componentes del proyecto y partiremos de los componentes externos, continuando con los componentes core de negocio (dominio) y por Ãºltimo el inicio y configuraciÃ³n de la aplicaciÃ³n.
+
 
 # Arquitectura
 
@@ -12,36 +14,55 @@ Lee el artículo [Clean Architecture — Aislando los detalles](https://medium.com/
 
 ## Domain
 
-Es el módulo más interno de la arquitectura, pertenece a la capa del dominio y encapsula la lógica y reglas del negocio mediante modelos y entidades del dominio.
+Es el mÃ³dulo mÃ¡s interno de la arquitectura, pertenece a la capa del dominio y encapsula la lÃ³gica y reglas del negocio mediante modelos y entidades del dominio.
+
+- MÃ©todos:
+    - `Object getProductById(String id)` â€” devuelve el detalle de un producto (actualmente `Object`).
+    - `List<ReviewsModel> getRecomendationByProductId(String id)` â€” lista de reseÃ±as por producto.
+    - `Map<String, Object> getAllProducts(String title, Double minPrice, Double maxPrice, String category, int page, int size)` â€” bÃºsqueda y paginaciÃ³n.
 
 ## Usecases
 
-Este módulo gradle perteneciente a la capa del dominio, implementa los casos de uso del sistema, define lógica de aplicación y reacciona a las invocaciones desde el módulo de entry points, orquestando los flujos hacia el módulo de entities.
+Este mÃ³dulo gradle perteneciente a la capa del dominio, implementa los casos de uso del sistema, define lÃ³gica de aplicaciÃ³n y reacciona a las invocaciones desde el mÃ³dulo de entry points, orquestando los flujos hacia el mÃ³dulo de entities.
+
+- Carga datos desde recursos (`data/items.json` y `data/reviews.csv`).
+- Mantiene caches en memoria (`items`, `reviews`) y usa `synchronized` en `loadProducts()` para inicializaciÃ³n segura.
+- LÃ³gica de filtrado:
+    - Filtra por `title` (contains, case-insensitive), `category` (equalsIgnoreCase), `minPrice`, `maxPrice`.
+    - Combina predicados y aplica sobre la lista completa.
+- PaginaciÃ³n:
+    - Valida `size > 0` (lanza `IllegalArgumentException` si no).
+    - Calcula `totalItems`, `totalPages`, y sublista `data` segÃºn `page` y `size`.
+    - Si `page` < 1, se normaliza a 1; si `page` > `totalPages` lanza `IllegalArgumentException`.
+- BÃºsqueda por id / recomendaciones:
+    - `getProductById` devuelve `Map` con `item` y `best_recommendation` (mejor reseÃ±a por rating) o `null` si no existe.
+    - `getRecomendationByProductId` devuelve lista de reseÃ±as filtradas por `item_id`.
+- Manejo de errores: envuelve IO en `UncheckedIOException` para propagar fallos de lectura.
 
 ## Infrastructure
 
-### Helpers
-
-En el apartado de helpers tendremos utilidades generales para los Driven Adapters y Entry Points.
-
-Estas utilidades no están arraigadas a objetos concretos, se realiza el uso de generics para modelar comportamientos
-genéricos de los diferentes objetos de persistencia que puedan existir, este tipo de implementaciones se realizan
-basadas en el patrón de diseño [Unit of Work y Repository](https://medium.com/@krzychukosobudzki/repository-design-pattern-bc490b256006)
-
-Estas clases no puede existir solas y debe heredarse su compartimiento en los **Driven Adapters**
-
-### Driven Adapters
-
-Los driven adapter representan implementaciones externas a nuestro sistema, como lo son conexiones a servicios rest,
-soap, bases de datos, lectura de archivos planos, y en concreto cualquier origen y fuente de datos con la que debamos
-interactuar.
 
 ### Entry Points
 
-Los entry points representan los puntos de entrada de la aplicación o el inicio de los flujos de negocio.
+Los entry points representan los puntos de entrada de la aplicaciÃ³n o el inicio de los flujos de negocio.
+
+- Endpoints:
+    - `GET /products/all-products` â€” recibe filtros (`title`, `minPrice`, `maxPrice`, `category`) y paginaciÃ³n (`page`, `size`). Llama a `getAllProducts` y responde con `ResponseUtil`.
+    - `GET /products/product-by-id?id={id}` â€” busca un producto por id y responde 200/404.
+    - `GET /products/recommendation-by-product-id?id={id}` â€” devuelve reseÃ±as del producto o 404 si no hay.
+- Manejo de excepciones:
+    - Captura `IllegalArgumentException` y responde 400 con el mensaje.
+    - Captura `Exception` y responde 500.
+- Dependencia inyectada: `ProductsDataUseCaseInterface`.
 
 ## Application
 
-Este módulo es el más externo de la arquitectura, es el encargado de ensamblar los distintos módulos, resolver las dependencias y crear los beans de los casos de use (UseCases) de forma automática, inyectando en éstos instancias concretas de las dependencias declaradas. Además inicia la aplicación (es el único módulo del proyecto donde encontraremos la función “public static void main(String[] args)”.
+Este mÃ³dulo es el mÃ¡s externo de la arquitectura, es el encargado de ensamblar los distintos mÃ³dulos, resolver las dependencias y crear los beans de los casos de use (UseCases) de forma automÃ¡tica, inyectando en Ã©stos instancias concretas de las dependencias declaradas. AdemÃ¡s inicia la aplicaciÃ³n (es el Ãºnico mÃ³dulo del proyecto donde encontraremos la funciÃ³n ï¿½public static void main(String[] args)ï¿½.
 
 **Los beans de los casos de uso se disponibilizan automaticamente gracias a un '@ComponentScan' ubicado en esta capa.**
+
+## Datos y Formatos
+
+- Recursos en classpath:
+    - `data/items.json` â€” cargado con `ObjectMapper` a `List<ItemModel>` y convertido a `Map` por `id`.
+    - `data/reviews.csv` â€” leÃ­do manualmente con `BufferedReader` y `String.split(",")`.

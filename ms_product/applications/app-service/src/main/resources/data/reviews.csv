@@ -1,0 +1,121 @@
+review_id,item_id,user_name,rating,title,comment,created_at,helpful_votes,verified_purchase
+REV-MLA10001-1,MLA10001,Diana R.,4.4,No era lo esperado,El sonido es claro. La pantalla se ve excelente. Me gustó el diseño.,2024-11-07T11:30:35Z,93,False
+REV-MLA10002-1,MLA10002,Julián T.,3.2,Empaque defectuoso,El sonido es claro. El color es bonito. La app podría mejorar. El material se siente resistente.,2025-07-23T20:23:35Z,53,True
+REV-MLA10003-7748,MLA10003,Carlos L.,4.6,Buena relación calidad/precio,El material se siente resistente. El tamaño es perfecto para mi escritorio. Funciona bien con mi teléfono.,2025-04-07T16:32:35Z,24,True
+REV-MLA10003-1,MLA10003,Laura R.,4.9,Calidad mediocre,Me gustó el diseño. El tamaño es perfecto para mi escritorio. La pantalla se ve excelente.,2025-10-10T18:52:35Z,76,True
+REV-MLA10004-3902,MLA10004,Paula B.,4.5,Sonido nítido,La batería dura bastante. El tamaño es perfecto para mi escritorio. El manual no es muy claro.,2024-12-10T17:54:35Z,70,False
+REV-MLA10004-1,MLA10004,Diana C.,3.3,Perfecto para el trabajo,El material se siente resistente. La conexión es estable. La app podría mejorar. La instalación fue sencilla.,2025-06-28T05:36:35Z,74,True
+REV-MLA10005-8618,MLA10005,Sofía N.,2.4,Buen desempeño,El material se siente resistente. La pantalla se ve excelente. La relación costo-beneficio es alta.,2024-10-26T22:25:35Z,41,True
+REV-MLA10005-1,MLA10005,Felipe C.,3.8,Regular,"El empaque llegó en buen estado. La instalación fue sencilla. Por el precio, está muy bien. La app podría mejorar.",2025-08-11T18:24:35Z,35,True
+REV-MLA10005-839,MLA10005,Nicolás B.,2.5,Muy buen producto,"El manual no es muy claro. Por el precio, está muy bien. La conexión es estable. La app podría mejorar.",2025-09-03T09:09:35Z,165,True
+REV-MLA10006-3133,MLA10006,Manuela M.,3.5,Sonido nítido,El material se siente resistente. La batería dura bastante. El empaque llegó en buen estado.,2024-11-25T03:48:35Z,103,True
+REV-MLA10006-1,MLA10006,Sofía C.,3.8,Sonido nítido,Me gustó el diseño. La conexión es estable. El tamaño es perfecto para mi escritorio. El manual no es muy claro.,2025-03-26T16:50:35Z,81,True
+REV-MLA10007-1,MLA10007,Daniela M.,3.4,Empaque defectuoso,La conexión es estable. El sonido es claro.,2025-08-07T19:16:35Z,61,False
+REV-MLA10008-1,MLA10008,Esteban T.,4.0,Calidad mediocre,"La instalación fue sencilla. La conexión es estable. La relación costo-beneficio es alta. Por el precio, está muy bien.",2025-08-04T01:31:35Z,115,True
+REV-MLA10009-6224,MLA10009,Valentina B.,4.7,Muy buen producto,El tamaño es perfecto para mi escritorio. El manual no es muy claro. El material se siente resistente. La batería dura bastante.,2024-10-28T12:12:35Z,6,True
+REV-MLA10009-2588,MLA10009,Camilo H.,2.4,Calidad mediocre,El tamaño es perfecto para mi escritorio. Funciona bien con mi teléfono. La app podría mejorar. El manual no es muy claro.,2025-02-25T06:22:35Z,29,False
+REV-MLA10009-1,MLA10009,Manuela H.,3.2,Excelente calidad,El manual no es muy claro. Me gustó el diseño. La app podría mejorar.,2025-03-15T15:38:35Z,16,True
+REV-MLA10010-1,MLA10010,Catalina L.,3.4,Buena relación calidad/precio,El empaque llegó en buen estado. El manual no es muy claro. La conexión es estable. La instalación fue sencilla.,2024-11-25T17:32:35Z,96,True
+REV-MLA10010-9003,MLA10010,Daniela S.,2.3,Cumple lo prometido,La app podría mejorar. La pantalla se ve excelente. El material se siente resistente.,2025-02-05T15:13:35Z,159,True
+REV-MLA10010-6273,MLA10010,Andrés N.,4.1,Buena relación calidad/precio,"La app podría mejorar. Por el precio, está muy bien. El sonido es claro.",2025-09-11T03:15:35Z,38,False
+REV-MLA10011-1,MLA10011,Paula C.,3.9,Entrega rápida,La conexión es estable. Funciona bien con mi teléfono. El color es bonito.,2025-02-07T11:02:35Z,50,False
+REV-MLA10012-1,MLA10012,Catalina G.,4.3,Lo recomiendo,Funciona bien con mi teléfono. El material se siente resistente. La relación costo-beneficio es alta. La batería dura bastante.,2025-02-26T18:01:35Z,59,False
+REV-MLA10012-4535,MLA10012,Luisa G.,2.6,Materiales premium,"El sonido es claro. Por el precio, está muy bien.",2025-03-16T02:24:35Z,160,False
+REV-MLA10012-8150,MLA10012,Camilo T.,2.6,Gran batería,La pantalla se ve excelente. El tamaño es perfecto para mi escritorio. El empaque llegó en buen estado.,2025-05-18T16:25:35Z,45,True
+REV-MLA10013-1,MLA10013,Pedro L.,4.2,Buena relación calidad/precio,El material se siente resistente. Funciona bien con mi teléfono. El manual no es muy claro.,2024-11-25T19:39:35Z,25,False
+REV-MLA10013-8429,MLA10013,Paula H.,3.0,Decepcionado,La batería dura bastante. La app podría mejorar.,2025-07-17T03:18:35Z,75,True
+REV-MLA10014-1,MLA10014,Daniela M.,4.0,Muy buen producto,La batería dura bastante. La pantalla se ve excelente.,2024-11-07T05:22:35Z,39,True
+REV-MLA10014-4321,MLA10014,Andrés R.,3.2,Vale la pena,La pantalla se ve excelente. El tamaño es perfecto para mi escritorio. Me gustó el diseño.,2024-12-10T07:52:35Z,8,True
+REV-MLA10014-6726,MLA10014,Carlos N.,2.4,Cumple lo prometido,El tamaño es perfecto para mi escritorio. El material se siente resistente.,2025-01-09T12:31:35Z,116,False
+REV-MLA10015-63,MLA10015,Sofía M.,4.9,Decepcionado,El empaque llegó en buen estado. La batería dura bastante. La app podría mejorar.,2025-01-13T15:21:35Z,155,True
+REV-MLA10015-1,MLA10015,Luisa T.,3.9,Vale la pena,"Por el precio, está muy bien. El material se siente resistente.",2025-03-22T00:25:35Z,31,True
+REV-MLA10015-53,MLA10015,Andrés N.,4.9,Fácil de usar,La conexión es estable. La relación costo-beneficio es alta.,2025-10-14T08:47:35Z,188,False
+REV-MLA10016-1,MLA10016,Ana T.,3.0,Materiales premium,El tamaño es perfecto para mi escritorio. El material se siente resistente. La relación costo-beneficio es alta.,2025-10-13T10:37:35Z,27,False
+REV-MLA10017-4091,MLA10017,Ana N.,4.0,Cumple lo prometido,El material se siente resistente. El empaque llegó en buen estado. El manual no es muy claro. Me gustó el diseño.,2024-11-30T15:05:35Z,66,True
+REV-MLA10017-1,MLA10017,Nicolás S.,4.8,Materiales premium,Me gustó el diseño. El color es bonito.,2024-12-28T04:35:35Z,102,True
+REV-MLA10018-1,MLA10018,Andrés N.,4.6,Excelente calidad,"La instalación fue sencilla. El empaque llegó en buen estado. La batería dura bastante. Por el precio, está muy bien.",2025-08-23T15:59:35Z,62,True
+REV-MLA10019-8436,MLA10019,Felipe M.,2.6,Empaque defectuoso,El tamaño es perfecto para mi escritorio. El material se siente resistente. El sonido es claro.,2025-04-30T07:22:35Z,129,True
+REV-MLA10019-8440,MLA10019,Manuela B.,2.4,No era lo esperado,Me gustó el diseño. El tamaño es perfecto para mi escritorio.,2025-07-04T10:41:35Z,89,True
+REV-MLA10019-1,MLA10019,Diana G.,3.4,Gran batería,El color es bonito. El material se siente resistente.,2025-09-14T15:19:35Z,106,True
+REV-MLA10020-1,MLA10020,María B.,3.8,Vale la pena,El manual no es muy claro. El sonido es claro. La pantalla se ve excelente.,2025-09-23T16:49:35Z,27,False
+REV-MLA10021-2574,MLA10021,María M.,2.1,Fácil de usar,"Me gustó el diseño. La relación costo-beneficio es alta. Por el precio, está muy bien. La instalación fue sencilla.",2025-09-14T04:46:35Z,73,False
+REV-MLA10021-1,MLA10021,Luisa R.,3.1,Empaque defectuoso,"La relación costo-beneficio es alta. La batería dura bastante. El manual no es muy claro. Por el precio, está muy bien.",2025-09-16T08:33:35Z,51,True
+REV-MLA10022-1,MLA10022,Julián N.,4.2,Materiales premium,La conexión es estable. El tamaño es perfecto para mi escritorio.,2025-06-16T22:11:35Z,16,True
+REV-MLA10023-1,MLA10023,Nicolás T.,4.9,Calidad mediocre,El empaque llegó en buen estado. Me gustó el diseño. La app podría mejorar.,2025-08-01T20:39:35Z,115,True
+REV-MLA10024-4914,MLA10024,Andrés L.,4.4,Decepcionado,"El color es bonito. Por el precio, está muy bien.",2025-03-15T12:20:35Z,194,True
+REV-MLA10024-1,MLA10024,Sofía G.,3.2,Lo recomiendo,El manual no es muy claro. El color es bonito. El empaque llegó en buen estado. El material se siente resistente.,2025-08-22T13:35:35Z,59,True
+REV-MLA10024-6181,MLA10024,Ana C.,4.1,Calidad mediocre,Me gustó el diseño. La app podría mejorar.,2025-09-10T02:04:35Z,178,False
+REV-MLA10025-1,MLA10025,Carlos C.,4.2,Materiales premium,"El empaque llegó en buen estado. Por el precio, está muy bien.",2025-05-31T03:48:35Z,96,True
+REV-MLA10026-1,MLA10026,Esteban L.,3.0,Recomendado para regalo,La app podría mejorar. El manual no es muy claro.,2024-10-29T19:46:35Z,86,True
+REV-MLA10026-2829,MLA10026,Luisa B.,4.6,Empaque defectuoso,La batería dura bastante. La app podría mejorar.,2025-02-05T01:22:35Z,174,True
+REV-MLA10026-1255,MLA10026,Nicolás N.,3.9,Buena relación calidad/precio,El empaque llegó en buen estado. La pantalla se ve excelente. Funciona bien con mi teléfono. La app podría mejorar.,2025-03-28T16:07:35Z,151,True
+REV-MLA10026-512,MLA10026,Felipe N.,4.4,Muy buen producto,"Por el precio, está muy bien. El color es bonito. Funciona bien con mi teléfono. Me gustó el diseño.",2025-06-29T01:09:35Z,138,True
+REV-MLA10027-1,MLA10027,Miguel B.,4.2,Decepcionado,"El material se siente resistente. El sonido es claro. El color es bonito. Por el precio, está muy bien.",2025-05-12T16:53:35Z,60,False
+REV-MLA10027-7381,MLA10027,Andrés R.,2.6,Vale la pena,"Por el precio, está muy bien. La app podría mejorar.",2025-07-21T19:22:35Z,59,True
+REV-MLA10028-1,MLA10028,Luis T.,4.2,Me sorprendió,Funciona bien con mi teléfono. El material se siente resistente. La relación costo-beneficio es alta.,2024-10-25T12:50:35Z,58,False
+REV-MLA10028-6594,MLA10028,Pedro H.,2.3,Llegó antes de tiempo,La relación costo-beneficio es alta. La batería dura bastante.,2025-03-12T06:48:35Z,104,True
+REV-MLA10029-3789,MLA10029,Andrea B.,4.9,Vale la pena,La batería dura bastante. La pantalla se ve excelente.,2025-01-17T16:51:35Z,196,False
+REV-MLA10029-1,MLA10029,Nicolás S.,4.0,Gran batería,El empaque llegó en buen estado. La pantalla se ve excelente. La relación costo-beneficio es alta.,2025-02-26T14:06:35Z,118,True
+REV-MLA10030-1,MLA10030,Carlos L.,3.4,Buena relación calidad/precio,La app podría mejorar. El empaque llegó en buen estado.,2024-11-04T21:50:35Z,72,False
+REV-MLA10030-5200,MLA10030,Pedro L.,3.2,Sonido nítido,La instalación fue sencilla. La pantalla se ve excelente. El manual no es muy claro.,2024-12-17T03:22:35Z,124,False
+REV-MLA10030-3934,MLA10030,Juan M.,3.8,Lo recomiendo,Funciona bien con mi teléfono. El manual no es muy claro.,2025-07-19T21:44:35Z,142,False
+REV-MLA10031-1,MLA10031,Ana T.,4.9,Recomendado para regalo,La relación costo-beneficio es alta. La instalación fue sencilla.,2025-06-23T09:34:35Z,56,True
+REV-MLA10031-6486,MLA10031,Valentina S.,2.5,Sonido nítido,Me gustó el diseño. El sonido es claro. El tamaño es perfecto para mi escritorio. El material se siente resistente.,2025-07-02T03:56:35Z,164,False
+REV-MLA10032-1,MLA10032,Paula G.,4.5,Llegó antes de tiempo,La pantalla se ve excelente. La relación costo-beneficio es alta.,2024-12-05T17:34:35Z,64,False
+REV-MLA10032-8896,MLA10032,Miguel T.,3.7,No era lo esperado,"El manual no es muy claro. La app podría mejorar. Por el precio, está muy bien. La conexión es estable.",2025-08-28T04:16:35Z,81,True
+REV-MLA10033-1,MLA10033,Sara B.,3.9,No era lo esperado,El empaque llegó en buen estado. Me gustó el diseño.,2025-04-18T06:15:35Z,103,True
+REV-MLA10033-1166,MLA10033,Luisa B.,4.2,Sonido nítido,El tamaño es perfecto para mi escritorio. La conexión es estable.,2025-07-27T01:28:35Z,187,True
+REV-MLA10034-1,MLA10034,Felipe R.,4.9,Fácil de usar,La batería dura bastante. El sonido es claro.,2025-10-17T00:11:35Z,85,True
+REV-MLA10035-1,MLA10035,Paula M.,4.4,Lo recomiendo,"El tamaño es perfecto para mi escritorio. Por el precio, está muy bien.",2025-09-09T10:43:35Z,82,True
+REV-MLA10036-1,MLA10036,Miguel G.,4.1,Vale la pena,Me gustó el diseño. La conexión es estable. La instalación fue sencilla. El manual no es muy claro.,2025-09-14T16:20:35Z,6,False
+REV-MLA10037-9531,MLA10037,Laura C.,2.7,Cumple lo prometido,"El tamaño es perfecto para mi escritorio. Por el precio, está muy bien. El material se siente resistente.",2025-05-03T22:58:35Z,130,True
+REV-MLA10037-1,MLA10037,Miguel N.,4.5,Muy buen producto,La instalación fue sencilla. El tamaño es perfecto para mi escritorio. La app podría mejorar.,2025-06-02T19:42:35Z,33,False
+REV-MLA10038-439,MLA10038,Julián C.,4.7,Llegó antes de tiempo,Funciona bien con mi teléfono. La relación costo-beneficio es alta. El color es bonito.,2025-08-24T00:58:35Z,136,False
+REV-MLA10038-1,MLA10038,Miguel C.,4.7,No era lo esperado,Funciona bien con mi teléfono. La pantalla se ve excelente.,2025-10-16T04:21:35Z,30,False
+REV-MLA10039-1,MLA10039,Santiago M.,3.6,Recomendado para regalo,El manual no es muy claro. El tamaño es perfecto para mi escritorio. El sonido es claro.,2025-03-22T18:40:35Z,98,True
+REV-MLA10040-1,MLA10040,Ana H.,4.6,Podría ser mejor,El color es bonito. El empaque llegó en buen estado. El manual no es muy claro.,2025-07-24T07:39:35Z,115,False
+REV-MLA10041-8100,MLA10041,Andrés M.,3.7,Llegó antes de tiempo,El tamaño es perfecto para mi escritorio. La batería dura bastante.,2025-01-21T15:31:35Z,145,True
+REV-MLA10041-1,MLA10041,María B.,4.2,Podría ser mejor,La relación costo-beneficio es alta. Me gustó el diseño. El color es bonito. La instalación fue sencilla.,2025-04-10T22:34:35Z,47,True
+REV-MLA10041-4020,MLA10041,Carlos C.,3.0,Entrega rápida,La app podría mejorar. Funciona bien con mi teléfono. El color es bonito.,2025-04-11T12:09:35Z,137,True
+REV-MLA10041-9994,MLA10041,Luis L.,4.4,Materiales premium,La instalación fue sencilla. La relación costo-beneficio es alta. La batería dura bastante.,2025-08-22T13:46:35Z,53,False
+REV-MLA10042-1,MLA10042,Felipe S.,4.4,Excelente calidad,"Por el precio, está muy bien. La pantalla se ve excelente.",2025-09-07T03:17:35Z,52,True
+REV-MLA10043-1,MLA10043,Pedro M.,3.4,Me sorprendió,El empaque llegó en buen estado. La relación costo-beneficio es alta. El manual no es muy claro. El tamaño es perfecto para mi escritorio.,2025-09-16T05:21:35Z,87,True
+REV-MLA10044-7003,MLA10044,Carlos L.,3.1,Buena relación calidad/precio,Me gustó el diseño. Funciona bien con mi teléfono. La instalación fue sencilla.,2025-04-14T04:31:35Z,190,True
+REV-MLA10044-1,MLA10044,Laura G.,3.1,Cumple lo prometido,La app podría mejorar. El empaque llegó en buen estado.,2025-07-11T21:09:35Z,7,True
+REV-MLA10045-1,MLA10045,Carlos H.,4.2,Muy buen producto,Funciona bien con mi teléfono. El tamaño es perfecto para mi escritorio. La instalación fue sencilla. El material se siente resistente.,2025-01-30T13:45:35Z,24,False
+REV-MLA10046-1873,MLA10046,Esteban B.,4.3,Recomendado para regalo,La relación costo-beneficio es alta. La conexión es estable.,2025-01-11T03:28:35Z,168,True
+REV-MLA10046-1,MLA10046,Julián L.,3.7,Gran batería,Me gustó el diseño. El tamaño es perfecto para mi escritorio. La app podría mejorar.,2025-01-29T08:32:35Z,1,False
+REV-MLA10046-6330,MLA10046,Pedro T.,4.9,Cumplió mis expectativas,El color es bonito. El manual no es muy claro. La instalación fue sencilla.,2025-07-12T16:23:35Z,157,True
+REV-MLA10046-8233,MLA10046,Catalina R.,2.4,Lo recomiendo,La conexión es estable. Funciona bien con mi teléfono.,2025-07-17T00:29:35Z,34,False
+REV-MLA10047-1,MLA10047,Camilo C.,3.3,Regular,La conexión es estable. El manual no es muy claro.,2024-12-07T20:55:35Z,95,True
+REV-MLA10047-7748,MLA10047,Laura L.,3.8,Empaque defectuoso,"Por el precio, está muy bien. El material se siente resistente. El manual no es muy claro. La app podría mejorar.",2024-12-14T08:40:35Z,96,True
+REV-MLA10047-2876,MLA10047,Felipe M.,3.6,Entrega rápida,El color es bonito. El sonido es claro. Me gustó el diseño. El tamaño es perfecto para mi escritorio.,2025-08-05T04:49:35Z,104,True
+REV-MLA10047-6878,MLA10047,Pedro C.,4.2,Buen soporte,Me gustó el diseño. El material se siente resistente. La pantalla se ve excelente. El empaque llegó en buen estado.,2025-09-22T22:24:35Z,92,True
+REV-MLA10047-4116,MLA10047,Catalina S.,5.0,Lo recomiendo,El color es bonito. Me gustó el diseño.,2025-09-29T22:41:35Z,188,True
+REV-MLA10048-1,MLA10048,Andrea N.,4.1,Recomendado para regalo,"Por el precio, está muy bien. La conexión es estable.",2024-11-28T07:00:35Z,79,False
+REV-MLA10049-1,MLA10049,Manuela H.,4.1,Me sorprendió,El manual no es muy claro. El tamaño es perfecto para mi escritorio. Funciona bien con mi teléfono.,2024-11-24T16:13:35Z,0,True
+REV-MLA10050-1,MLA10050,Laura G.,4.2,No era lo esperado,"Por el precio, está muy bien. La pantalla se ve excelente. El color es bonito. El tamaño es perfecto para mi escritorio.",2025-04-29T03:24:35Z,76,True
+REV-MLA10051-8086,MLA10051,Ana G.,3.0,Buen soporte,La batería dura bastante. El material se siente resistente. El empaque llegó en buen estado.,2024-11-20T14:18:35Z,194,True
+REV-MLA10051-1,MLA10051,Catalina G.,3.5,Cumple lo prometido,La app podría mejorar. Funciona bien con mi teléfono.,2025-04-03T20:54:35Z,103,True
+REV-MLA10051-680,MLA10051,Valentina M.,4.8,Cumplió mis expectativas,La pantalla se ve excelente. La batería dura bastante.,2025-08-27T05:30:35Z,64,True
+REV-MLA10052-1,MLA10052,Felipe S.,3.3,Excelente compra,El tamaño es perfecto para mi escritorio. El material se siente resistente.,2025-07-01T23:26:35Z,37,True
+REV-MLA10053-1,MLA10053,Luisa L.,3.6,Entrega rápida,La app podría mejorar. El material se siente resistente.,2025-09-26T18:59:35Z,1,True
+REV-MLA10054-1,MLA10054,Andrea T.,4.9,Muy buen producto,El empaque llegó en buen estado. Funciona bien con mi teléfono. Me gustó el diseño.,2024-11-04T14:07:35Z,21,True
+REV-MLA10054-4802,MLA10054,Diana C.,3.2,Me sorprendió,El empaque llegó en buen estado. La batería dura bastante. El tamaño es perfecto para mi escritorio. El color es bonito.,2024-11-28T13:36:35Z,11,True
+REV-MLA10054-3756,MLA10054,María S.,2.1,Lo recomiendo,La relación costo-beneficio es alta. La batería dura bastante.,2024-12-21T00:31:35Z,49,False
+REV-MLA10054-6351,MLA10054,Luis R.,4.3,Me sorprendió,La relación costo-beneficio es alta. El color es bonito. El sonido es claro.,2025-08-14T06:53:35Z,108,True
+REV-MLA10055-1054,MLA10055,Sara B.,2.7,Muy buen producto,La pantalla se ve excelente. La batería dura bastante. La relación costo-beneficio es alta.,2024-12-11T13:49:35Z,64,False
+REV-MLA10055-7273,MLA10055,Manuela R.,3.3,Materiales premium,El color es bonito. Funciona bien con mi teléfono.,2024-12-18T06:13:35Z,154,True
+REV-MLA10055-1,MLA10055,Juan L.,3.3,Excelente calidad,Me gustó el diseño. La batería dura bastante. El material se siente resistente. La pantalla se ve excelente.,2025-04-11T05:35:35Z,44,True
+REV-MLA10055-7574,MLA10055,Paula H.,3.1,Lo recomiendo,El color es bonito. La instalación fue sencilla.,2025-08-19T16:23:35Z,7,False
+REV-MLA10056-1,MLA10056,Sofía H.,4.2,Materiales premium,El tamaño es perfecto para mi escritorio. La batería dura bastante. El manual no es muy claro.,2025-07-07T01:18:35Z,42,False
+REV-MLA10056-9884,MLA10056,Manuela M.,2.2,Me sorprendió,La instalación fue sencilla. La batería dura bastante. La conexión es estable. El sonido es claro.,2025-08-06T02:23:35Z,30,True
+REV-MLA10057-8795,MLA10057,Andrea B.,2.7,Excelente compra,El empaque llegó en buen estado. La pantalla se ve excelente. El manual no es muy claro. Funciona bien con mi teléfono.,2025-04-01T03:04:35Z,55,False
+REV-MLA10057-5999,MLA10057,Sofía B.,2.8,Gran batería,El color es bonito. La app podría mejorar.,2025-07-20T17:31:35Z,172,False
+REV-MLA10057-1,MLA10057,Andrés L.,3.5,Llegó antes de tiempo,El empaque llegó en buen estado. La app podría mejorar. La instalación fue sencilla.,2025-09-03T09:23:35Z,6,True
+REV-MLA10058-1,MLA10058,Valentina R.,4.2,Decepcionado,La batería dura bastante. La instalación fue sencilla.,2025-02-20T21:16:35Z,50,False
+REV-MLA10058-3387,MLA10058,Laura H.,4.5,Vale la pena,El empaque llegó en buen estado. El manual no es muy claro. La batería dura bastante. La relación costo-beneficio es alta.,2025-03-08T18:50:35Z,114,True
+REV-MLA10058-7282,MLA10058,Andrea N.,4.8,Cumplió mis expectativas,El color es bonito. La batería dura bastante. El tamaño es perfecto para mi escritorio. El material se siente resistente.,2025-10-19T01:25:35Z,5,False
+REV-MLA10059-1,MLA10059,Laura C.,4.8,Excelente calidad,"Por el precio, está muy bien. La conexión es estable. El tamaño es perfecto para mi escritorio. El empaque llegó en buen estado.",2025-04-05T06:38:35Z,52,True
+REV-MLA10060-5053,MLA10060,Ana C.,4.3,Podría ser mejor,"Por el precio, está muy bien. La pantalla se ve excelente. La batería dura bastante.",2025-03-22T16:38:35Z,78,False
+REV-MLA10060-1,MLA10060,Luis N.,3.3,Empaque defectuoso,"El material se siente resistente. El tamaño es perfecto para mi escritorio. Por el precio, está muy bien. La instalación fue sencilla.",2025-09-21T03:24:35Z,66,True
