@@ -1,7 +1,5 @@
 pluginManagement {
     repositories {
-        //mavenLocal()
-        //maven { url = '...' }
         gradlePluginPortal()
     }
 }
@@ -20,3 +18,11 @@ include ':usecase'
 project(':app-service').projectDir = file('./applications/app-service')
 project(':model').projectDir = file('./domain/model')
 project(':usecase').projectDir = file('./domain/usecase')
+include ':health-controller'
+project(':health-controller').projectDir = file('./infrastructure/entry-points/health-controller')
+include ':products-controller'
+project(':products-controller').projectDir = file('./infrastructure/entry-points/products-controller')
+include ':security-helper'
+project(':security-helper').projectDir = file('./infrastructure/helpers/security-helper')
+include ':login-token-generator-controller'
+project(':login-token-generator-controller').projectDir = file('./infrastructure/entry-points/login-token-generator-controller')

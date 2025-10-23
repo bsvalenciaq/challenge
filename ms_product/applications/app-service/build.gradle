@@ -1,12 +1,17 @@
 apply plugin: 'org.springframework.boot'
 
 dependencies {
+	implementation project(':products-controller')
+	implementation project(':health-controller')
     implementation project(':model')
     implementation project(':usecase')
     implementation 'org.springframework.boot:spring-boot-starter'
     runtimeOnly('org.springframework.boot:spring-boot-devtools')
     testImplementation 'com.tngtech.archunit:archunit:1.4.1'
     testImplementation 'com.fasterxml.jackson.core:jackson-databind'
+    implementation project(':security-helper')
+    implementation project(':login-token-generator-controller')
+    implementation("org.springframework:spring-webmvc:6.2.9")
 }
 
 tasks.register('explodedJar', Copy) {
@@ -15,12 +20,8 @@ tasks.register('explodedJar', Copy) {
 }
 
 jar {
-    // To disable the *-plain.jar
     enabled = false
 }
 
-bootJar {
-    // Sets output jar name
-    archiveFileName = "${project.getParent().getName()}.${archiveExtension.get()}"
+bootJar {archiveFileName = "${project.getParent().getName()}.${archiveExtension.get()}"
 }
-
