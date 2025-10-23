@@ -1,8 +1,10 @@
 package co.com.challenge.productscontroller;
 
 
+import co.com.challenge.model.utils.interfaces.JwtInterface;
 import co.com.challenge.model.utils.interfaces.ProductsDataUseCaseInterface;
 import co.com.challenge.model.utils.responses.ResponseUtil;
+import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -18,6 +20,7 @@ import java.util.Map;
 public class ProductsController {
 
     private final ProductsDataUseCaseInterface productsDataUseCaseInterface;
+    private final JwtInterface jwtInterface;
 
     @RequestMapping("/all-products")
     public ResponseEntity<ResponseUtil> getAllProducts(
@@ -26,8 +29,14 @@ public class ProductsController {
             @RequestParam(name = "maxPrice", required = false) Double maxPrice,
             @RequestParam(name = "category", required = false) String category,
             @RequestParam(name = "page", defaultValue = "1") int page,
-            @RequestParam(name = "size", defaultValue = "10") int size
+            @RequestParam(name = "size", defaultValue = "10") int size,
+            HttpServletRequest request
     ) {
+        var token = request.getHeader("Authorization");
+        if (token == null || !jwtInterface.validateToken(token)) {
+            return new ResponseEntity<>(new ResponseUtil(401, "Unauthorized: Missing or invalid token", null), HttpStatus.UNAUTHORIZED);
+        }
+
         try {
             Map<String, Object> result = productsDataUseCaseInterface.getAllProducts(title, minPrice, maxPrice, category, page, size);
             return new ResponseEntity<>(new ResponseUtil(200, "OK", result), HttpStatus.OK);
@@ -39,7 +48,13 @@ public class ProductsController {
     }
 
     @RequestMapping("/product-by-id")
-    public ResponseEntity<ResponseUtil> getProductById(@RequestParam(value = "id") String id) {
+    public ResponseEntity<ResponseUtil> getProductById(@RequestParam(value = "id") String id, HttpServletRequest request) {
+
+        var token = request.getHeader("Authorization");
+        if (token == null || !jwtInterface.validateToken(token)) {
+            return new ResponseEntity<>(new ResponseUtil(401, "Unauthorized: Missing or invalid token", null), HttpStatus.UNAUTHORIZED);
+        }
+
         var product = productsDataUseCaseInterface.getProductById(id);
         if (product == null) {
             return new ResponseEntity<>(new ResponseUtil(404, "Product not found", null),
@@ -50,7 +65,12 @@ public class ProductsController {
     }
 
     @RequestMapping("/recommendation-by-product-id")
-    public ResponseEntity<ResponseUtil> getRecommendationByProductId(@RequestParam(value = "id") String id) {
+    public ResponseEntity<ResponseUtil> getRecommendationByProductId(@RequestParam(value = "id") String id, HttpServletRequest request) {
+
+        var token = request.getHeader("Authorization");
+        if (token == null || !jwtInterface.validateToken(token)) {
+            return new ResponseEntity<>(new ResponseUtil(401, "Unauthorized: Missing or invalid token", null), HttpStatus.UNAUTHORIZED);
+        }
 
         var product = productsDataUseCaseInterface.getRecomendationByProductId(id);
         if (product == null || product.isEmpty()) {

@@ -36,7 +36,6 @@ class ProductsDataUseCaseTest {
     @Mock
     private Logger mockLogger;
 
-    // Mocks de modelos para no depender de constructores/setters reales
     private ItemModel item1;
     private ItemModel item2;
 
